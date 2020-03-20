@@ -9,5 +9,10 @@
 <body>
 	<h1>JSP - Bem vindo ao curso</h1>
 	<% out.print("Hello World! \nSeu sucesso garantido!"); %>
+	
+	<form action="receber-nome.jsp" method="get">
+		<input type="text" id="nome" name="nome"/>
+		<input type="submit" value="Enviar"/>
+	</form>
 </body>
 </html>
